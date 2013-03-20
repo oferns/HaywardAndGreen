@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailMonitor", "EmailMonitor\EmailMonitor.csproj", "{9934CD58-A7AF-410B-B9B7-B279093929C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailMonitor.Tests", "EmailMonitor.Tests\EmailMonitor.Tests.csproj", "{1BCADB74-46B8-4DD6-AECE-6C9CBCA795CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailTestClient", "EmailTestClient\EmailTestClient.csproj", "{8F0A4170-351A-4E3D-AC42-B58B48E59DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9934CD58-A7AF-410B-B9B7-B279093929C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9934CD58-A7AF-410B-B9B7-B279093929C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9934CD58-A7AF-410B-B9B7-B279093929C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9934CD58-A7AF-410B-B9B7-B279093929C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCADB74-46B8-4DD6-AECE-6C9CBCA795CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCADB74-46B8-4DD6-AECE-6C9CBCA795CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCADB74-46B8-4DD6-AECE-6C9CBCA795CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCADB74-46B8-4DD6-AECE-6C9CBCA795CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0A4170-351A-4E3D-AC42-B58B48E59DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0A4170-351A-4E3D-AC42-B58B48E59DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0A4170-351A-4E3D-AC42-B58B48E59DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0A4170-351A-4E3D-AC42-B58B48E59DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
