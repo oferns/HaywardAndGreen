@@ -55,6 +55,7 @@
             Console.WriteLine("Beginning polling at 30 sec interval");
 
             var timer = new Timer(30000);
+            timer.AutoReset = true;
             timer.Elapsed += (s, e) =>
                 {
                     Console.WriteLine("Begin Polling for 'Quote Request' in the subject line");
@@ -64,6 +65,7 @@
                     }
                     Console.WriteLine("End Polling");
                 };
+            timer.Enabled = true;
             Console.WriteLine("\r\n");
             Console.WriteLine("Press or select Enter to quit polling...");
             Console.Read();
