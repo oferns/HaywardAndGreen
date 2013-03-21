@@ -130,11 +130,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\Exchange\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\img\logo.png" />
@@ -156,219 +151,6 @@
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Service References\Exchange\configuration91.svcinfo" />
-    <Content Include="Service References\Exchange\configuration.svcinfo" />
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.AddDelegateResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.AddDelegateResponseMessageType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ConvertIdResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ConvertIdResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CopyFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CopyFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CopyItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CopyItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateAttachmentResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateAttachmentResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateManagedFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.CreateManagedFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteAttachmentResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteAttachmentResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.DeleteItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ExpandDLResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ExpandDLResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.FindFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.FindFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.FindItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.FindItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetAttachmentResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetAttachmentResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetDelegateResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetDelegateResponseMessageType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetEventsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetEventsResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetUserAvailabilityResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetUserAvailabilityResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetUserOofSettingsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.GetUserOofSettingsResponse1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.MoveFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.MoveFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.MoveItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.MoveItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.RemoveDelegateResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.RemoveDelegateResponseMessageType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ResolveNamesResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ResolveNamesResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SendItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SendItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.ServerVersionInfo.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SetUserOofSettingsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SetUserOofSettingsResponse1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SubscribeResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SubscribeResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SyncFolderHierarchyResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SyncFolderHierarchyResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SyncFolderItemsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.SyncFolderItemsResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UnsubscribeResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UnsubscribeResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateDelegateResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateDelegateResponseMessageType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateFolderResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateFolderResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateItemResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\EmailMonitor.Exchange.UpdateItemResponseType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\Exchange\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -382,13 +164,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <None Include="Service References\Exchange\messages.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="Service References\Exchange\Services.wsdl" />
-    <None Include="Service References\Exchange\types.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Email\Monitor.cshtml" />
   </ItemGroup>
@@ -398,12 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\Exchange\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
